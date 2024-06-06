@@ -1,0 +1,60 @@
+---
+output: rmarkdown::github_document
+---
+
+# qldyjcost
+
+Cost of Offending Tools for Youth Justice in Queensland
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+comment = NA, fig.width = 12, fig.height = 8, cache = FALSE)
+```
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 400)
+```
+
+## Purpose
+
+This is a simple, lightweight R package purely for convenience for my day job as a Senior Data Scientist at the consulting firm [Nous Group](https://nousgroup.com/) where I frequently conduct evaluations for Queensland Youth Justice.
+
+## Installation
+
+You can install the development version of `qldyjcost` from GitHub using the following:
+
+```{r eval = FALSE}
+devtools::install_github("hendersontrent/qldyjcost")
+```
+
+## Usage
+
+The core of `qldyjcost` is a data frame of historical costs from peer-reviewed sources called `yjcosts`. It can be accessed easily via:
+
+```{r, message = FALSE, warning = FALSE}
+library(qldyjcost)
+head(yjcosts)
+```
+
+`yjcosts` contains historical offending costs broken down by offence seriousness for court costs, police costs, wider social costs, and custody costs.
+
+`qldyjcost` also contains functionality for adjusting the historical offending costs to values for a given financial year using inflation. The `get_cpi` function webscrapes inflation rates from the [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/) and automatically cleans it up ready for use:
+
+```{r, message = FALSE, warning = FALSE}
+cpi <- get_cpi(location = "Australia")
+head(cpi)
+```
+
+Instead of grabbing CPI for the country, we can instead get it for any capital city:
+
+```{r, message = FALSE, warning = FALSE}
+cpi_bris <- get_cpi(location = "Brisbane")
+head(cpi_bris)
+```
+
+While this function is useful in isolation, it forms a key component of the workhorse function of `yjcosts` which is `adjust_costs`. `adjust_costs` applies inflation adjustments to the offending cost data to any given financial year. Specifically, it does this by averaging CPI values for each FY associated with the baseline costs in `yjcosts` as well as the user-specified FY to adjust to. The interface is incredible simple. Here is how to adjust costs to FY 2023-24 dollars:
+
+```{r, message = FALSE, warning = FALSE}
+adj <- adjust_costs(fy = "2023-24", location = "Australia")
+head(adj)
+```
