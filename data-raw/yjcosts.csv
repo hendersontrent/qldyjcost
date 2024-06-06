@@ -1,55 +1,56 @@
 ﻿qasoc_code,qasoc_description,type,cost,fy
-1,Homicide and related offences,Court,19674.00,2016-17
-2,Acts intended to cause injury,Court,1165.00,2016-17
-3,Sexual assault and related offences,Court,6543.00,2016-17
-4,Dangerous or negligent acts,Court,508.00,2016-17
-5,"Abduction, harassment and other",Court,2076.00,2016-17
-6,"Robbery, extortion and related",Court,3021.00,2016-17
-7,"Unlawful entry with intent/burglary, break and enter",Court,1080.00,2016-17
-8,Theft and related offences,Court,821.00,2016-17
-9,"Fraud, deception and related",Court,1159.00,2016-17
-10,Illicit drug offences,Court,776.00,2016-17
+1,Homicide and related offences,Court,19674,2016-17
+2,Acts intended to cause injury,Court,1165,2016-17
+3,Sexual assault and related offences,Court,6543,2016-17
+4,Dangerous or negligent acts,Court,508,2016-17
+5,"Abduction, harassment and other",Court,2076,2016-17
+6,"Robbery, extortion and related",Court,3021,2016-17
+7,"Unlawful entry with intent/burglary, break and enter",Court,1080,2016-17
+8,Theft and related offences,Court,821,2016-17
+9,"Fraud, deception and related",Court,1159,2016-17
+10,Illicit drug offences,Court,776,2016-17
 11,"Prohibited and regulated weapons
-and explosives offences ",Court,761.00,2016-17
+and explosives offences ",Court,761,2016-17
 12,"Property damage and
-environmental pollution",Court,981.00,2016-17
-13,Public order offences,Court,556.00,2016-17
-14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Court,704.00,2016-17
-15,Offences against justice procedures,Court,603.00,2016-17
-16,Miscellaneous offences,Court,704.00,2016-17
-1,Homicide and related offences,Police,138291.00,2016-17
-2,Acts intended to cause injury,Police,5761.00,2016-17
-3,Sexual assault and related offences,Police,20163.00,2016-17
-4,Dangerous or negligent acts,Police,4479.00,2016-17
-5,"Abduction, harassment and other",Police,9493.00,2016-17
-6,"Robbery, extortion and related",Police,13288.00,2016-17
-7,"Unlawful entry with intent/burglary, break and enter",Police,4299.00,2016-17
-8,Theft and related offences,Police,2570.00,2016-17
-9,"Fraud, deception and related",Police,3007.00,2016-17
-10,Illicit drug offences,Police,3879.00,2016-17
+environmental pollution",Court,981,2016-17
+13,Public order offences,Court,556,2016-17
+14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Court,704,2016-17
+15,Offences against justice procedures,Court,603,2016-17
+16,Miscellaneous offences,Court,704,2016-17
+1,Homicide and related offences,Police,138291,2016-17
+2,Acts intended to cause injury,Police,5761,2016-17
+3,Sexual assault and related offences,Police,20163,2016-17
+4,Dangerous or negligent acts,Police,4479,2016-17
+5,"Abduction, harassment and other",Police,9493,2016-17
+6,"Robbery, extortion and related",Police,13288,2016-17
+7,"Unlawful entry with intent/burglary, break and enter",Police,4299,2016-17
+8,Theft and related offences,Police,2570,2016-17
+9,"Fraud, deception and related",Police,3007,2016-17
+10,Illicit drug offences,Police,3879,2016-17
 11,"Prohibited and regulated weapons
-and explosives offences ",Police,4476.00,2016-17
+and explosives offences ",Police,4476,2016-17
 12,"Property damage and
-environmental pollution",Police,2876.00,2016-17
-13,Public order offences,Police,2400.00,2016-17
-14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Police,1633.00,2016-17
-15,Offences against justice procedures,Police,3302.00,2016-17
-16,Miscellaneous offences,Police,1633.00,2016-17
-1,Homicide and related offences,Wider social,2329919.00,2011-12
-2,Acts intended to cause injury,Wider social,2062.00,2011-12
-3,Sexual assault and related offences,Wider social,9123.00,2011-12
-4,Dangerous or negligent acts,Wider social,250.00,2011-12
-5,"Abduction, harassment and other",Wider social,1000.00,2011-12
-6,"Robbery, extortion and related",Wider social,2798.00,2011-12
-7,"Unlawful entry with intent/burglary, break and enter",Wider social,3490.00,2011-12
-8,Theft and related offences,Wider social,1510.00,2011-12
-9,"Fraud, deception and related",Wider social,517.00,2011-12
-10,Illicit drug offences,Wider social,500.00,2011-12
+environmental pollution",Police,2876,2016-17
+13,Public order offences,Police,2400,2016-17
+14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Police,1633,2016-17
+15,Offences against justice procedures,Police,3302,2016-17
+16,Miscellaneous offences,Police,1633,2016-17
+1,Homicide and related offences,Wider social,2329919,2011-12
+2,Acts intended to cause injury,Wider social,2062,2011-12
+3,Sexual assault and related offences,Wider social,9123,2011-12
+4,Dangerous or negligent acts,Wider social,250,2011-12
+5,"Abduction, harassment and other",Wider social,1000,2011-12
+6,"Robbery, extortion and related",Wider social,2798,2011-12
+7,"Unlawful entry with intent/burglary, break and enter",Wider social,3490,2011-12
+8,Theft and related offences,Wider social,1510,2011-12
+9,"Fraud, deception and related",Wider social,517,2011-12
+10,Illicit drug offences,Wider social,500,2011-12
 11,"Prohibited and regulated weapons
-and explosives offences ",Wider social,500.00,2011-12
+and explosives offences ",Wider social,500,2011-12
 12,"Property damage and
-environmental pollution",Wider social,4084.00,2011-12
-13,Public order offences,Wider social,250.00,2011-12
-14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Wider social,250.00,2011-12
-15,Offences against justice procedures,Wider social,250.00,2011-12
-16,Miscellaneous offences,Wider social,250.00,2011-12
+environmental pollution",Wider social,4084,2011-12
+13,Public order offences,Wider social,250,2011-12
+14,TRAFFIC AND VEHICLE REGULATORY OFFENCES,Wider social,250,2011-12
+15,Offences against justice procedures,Wider social,250,2011-12
+16,Miscellaneous offences,Wider social,250,2011-12
+,,Custody,1879.8,2020-21
