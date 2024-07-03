@@ -6,7 +6,7 @@ Cost of Offending Tools for Youth Justice in Queensland
 ## Purpose
 
 This is a simple, lightweight R package purely for convenience for my
-day job as a Senior Data Scientist at the consulting firm [Nous
+day job as a Lead Data Scientist at the consulting firm [Nous
 Group](https://nousgroup.com/) where I frequently conduct evaluations
 for Queensland Youth Justice.
 
