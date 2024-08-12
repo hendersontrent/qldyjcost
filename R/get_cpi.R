@@ -14,7 +14,7 @@ get_cpi <- function(location = c("Australia", "Sydney", "Melbourne", "Brisbane",
 
   # Download and read in Excel file
 
-  url <- "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/mar-quarter-2024/640101.xlsx"
+  url <- "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/jun-quarter-2024/640101.xlsx"
   temp <- tempfile()
   download.file(url, temp, mode = "wb")
   cpi <- readxl::read_excel(temp, sheet = 2)
