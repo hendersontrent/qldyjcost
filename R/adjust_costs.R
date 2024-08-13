@@ -19,6 +19,6 @@ adjust_costs <- function(fy = NULL,
   adj$new_fy <- fy
   adj$avg_cpi_old <- avg_cpi(cpi, adj$fy, ...)
   adj$avg_cpi_new <- avg_cpi(cpi, adj$new_fy, ...)
-  adj$new_cost <- adj$cost + (adj$cost * (adj$avg_cpi_new / adj$avg_cpi_old) - 1)
+  adj$new_cost <- adj$cost + (adj$cost * ((adj$avg_cpi_new / adj$avg_cpi_old) - 1))
   return(adj)
 }
